@@ -1,0 +1,141 @@
+/* /Reset */
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+
+#myname{
+    text-align:center;
+}
+#myname h1{
+    font-size:2em;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:20px;
+}
+/* section */
+section{
+    background-color:rgb(16, 6, 100);
+    margin-top:20px;
+}
+/* info */
+.info{
+    text-align:center;
+    padding:15px 0px 15px 0px;
+    width:100%;
+}
+.info h2{
+    color:white;
+    font-size:1.6em;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:25px;
+}
+/* portfolio */
+.portfolio h2{
+    color:white;
+    font-size:1.6em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin-top:25px;
+}
+.portfolio img{
+    width:30%;
+    display:block;
+    margin: 20px auto 10px auto;
+    cursor:pointer;
+}
+.portfolio a{
+    color:white;
+    font-size:1.4em;
+    margin-left: 45%;
+}
+.portfolio a:hover{
+    text-decoration:underline
+}
+/* Media Portfolio */
+@media screen and (min-width:768px){
+    /* portfolio */
+    portfolo h2{
+        font-size:1.8em
+    }
+    .portfolio img{
+        margin:20px 0px 10px 10px;
+        width:20%;        
+    }
+    .portfolio a{
+        margin:0px 0px 0px 10px;
+    }
+}
+/* horacodigo */
+.horacodigo{
+    padding:10px;
+}
+.horacodigo h2{
+    color:white;
+    font-size:1.6em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin-top:25px;
+}
+.horacodigo h4{
+    color:white;
+    font-size:1.3em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin-top:15px;
+}
+.horacodigo p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-indent: 15px;
+    line-height:30px;
+    color:white
+}
+.horacodigo p a{
+    color:rgb(124, 124, 223);
+}
+.horacodigo p a:hover{
+    text-decoration:underline;
+}
+/* redesocial */
+
+.redesocial h2{
+    color:white;
+    font-size:1.6em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin-top:25px;
+    margin-bottom: 20px;;
+}
+.redesocial a{
+    color:white;
+    display:flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size:30px;
+}
+/* media redesocial */
+@media screen and (min-width:768px){
+    .redesocial{
+        text-align:center
+    }
+    .redesocial a{
+        display:inline-block;
+        margin-left:20px;
+        font-size:70px;
+    }
+        
+}
+/* footer */
+
+footer p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height:30px;
+    margin-top:25px;
+    font-size:1.5em;
+}
